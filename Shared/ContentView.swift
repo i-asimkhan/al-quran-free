@@ -11,9 +11,8 @@ struct ContentView: View {
     var body: some View {
         
         VStack(alignment: .center, spacing: 20 , content: {
-            ContentHeaderView()
+            //ContentHeaderView()
             ChapetersListView(viewModel: QuranChaptersListModelView())
-            Spacer()
         })
         
     }

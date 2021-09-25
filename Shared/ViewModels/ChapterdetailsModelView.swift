@@ -19,7 +19,7 @@ class ChapterdetailsModelView : ObservableObject {
     
     func fetchBooks()
     {
-        let url:URL! = URL(string: "https://api.quran.com/api/v4/quran/verses/uthmani?chapter_number=\(chapterNumber)")
+        let url:URL! = URL(string: "https://api.quran.com/api/v4/quran/verses/indopak?chapter_number=\(chapterNumber)")
         
         URLSession.shared.dataTaskPublisher(for: url)
             .map { $0.data }

@@ -31,6 +31,8 @@
 		FD2363BD26FF257B007E20C7 /* ChapterVersesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */; };
 		FD2363D726FF4C33007E20C7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */; };
 		FD2363DC26FF4C38007E20C7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */; };
+		FDD5641226FFAD7A00C46BB7 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5641126FFAD7A00C46BB7 /* SearchBarView.swift */; };
+		FDD5641326FFAD7A00C46BB7 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5641126FFAD7A00C46BB7 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 		FD2363B026FF24DD007E20C7 /* ChapterdetailsModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterdetailsModelView.swift; sourceTree = "<group>"; };
 		FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVersesResponseModel.swift; sourceTree = "<group>"; };
 		FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		FDD5641126FFAD7A00C46BB7 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 		FD23639B26FF1078007E20C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FDD5641026FFAD5F00C46BB7 /* SearchBarView */,
 				FD2363A426FF2499007E20C7 /* ChapterDetailsView */,
 				FD23638326FF0AAD007E20C7 /* ChaptersList */,
 			);
@@ -229,6 +233,14 @@
 				FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDD5641026FFAD5F00C46BB7 /* SearchBarView */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5641126FFAD7A00C46BB7 /* SearchBarView.swift */,
+			);
+			path = SearchBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +407,7 @@
 				FD23639E26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */,
 				FD23637D26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */,
 				FD2363D726FF4C33007E20C7 /* ActivityIndicator.swift in Sources */,
+				FDD5641226FFAD7A00C46BB7 /* SearchBarView.swift in Sources */,
 				FD23636626FEFF2D007E20C7 /* ContentView.swift in Sources */,
 				FD23636426FEFF2D007E20C7 /* Al_QuranApp.swift in Sources */,
 				FD2363A626FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */,
@@ -412,6 +425,7 @@
 				FD23639F26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */,
 				FD23637E26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */,
 				FD2363DC26FF4C38007E20C7 /* ActivityIndicator.swift in Sources */,
+				FDD5641326FFAD7A00C46BB7 /* SearchBarView.swift in Sources */,
 				FD23636726FEFF2D007E20C7 /* ContentView.swift in Sources */,
 				FD23636526FEFF2D007E20C7 /* Al_QuranApp.swift in Sources */,
 				FD2363A726FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */,
