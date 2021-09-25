@@ -15,6 +15,22 @@
 		FD23636726FEFF2D007E20C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23633C26FEFF2A007E20C7 /* ContentView.swift */; };
 		FD23636826FEFF2D007E20C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD23633D26FEFF2D007E20C7 /* Assets.xcassets */; };
 		FD23636926FEFF2D007E20C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD23633D26FEFF2D007E20C7 /* Assets.xcassets */; };
+		FD23637D26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23637C26FF02B0007E20C7 /* ContentHeaderView.swift */; };
+		FD23637E26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23637C26FF02B0007E20C7 /* ContentHeaderView.swift */; };
+		FD23638526FF0AE1007E20C7 /* ChapetersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23638426FF0AE1007E20C7 /* ChapetersListView.swift */; };
+		FD23638626FF0AE1007E20C7 /* ChapetersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23638426FF0AE1007E20C7 /* ChapetersListView.swift */; };
+		FD23639126FF1064007E20C7 /* QuranChaptersResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23639026FF1064007E20C7 /* QuranChaptersResponseModel.swift */; };
+		FD23639226FF1064007E20C7 /* QuranChaptersResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23639026FF1064007E20C7 /* QuranChaptersResponseModel.swift */; };
+		FD23639E26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23639D26FF1453007E20C7 /* QuranChaptersListModelView.swift */; };
+		FD23639F26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23639D26FF1453007E20C7 /* QuranChaptersListModelView.swift */; };
+		FD2363A626FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363A526FF24B4007E20C7 /* ChapterDetailsView.swift */; };
+		FD2363A726FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363A526FF24B4007E20C7 /* ChapterDetailsView.swift */; };
+		FD2363B126FF24DD007E20C7 /* ChapterdetailsModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363B026FF24DD007E20C7 /* ChapterdetailsModelView.swift */; };
+		FD2363B226FF24DD007E20C7 /* ChapterdetailsModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363B026FF24DD007E20C7 /* ChapterdetailsModelView.swift */; };
+		FD2363BC26FF257B007E20C7 /* ChapterVersesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */; };
+		FD2363BD26FF257B007E20C7 /* ChapterVersesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */; };
+		FD2363D726FF4C33007E20C7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */; };
+		FD2363DC26FF4C38007E20C7 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,14 @@
 		FD23635D26FEFF2D007E20C7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD23636126FEFF2D007E20C7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FD23636326FEFF2D007E20C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD23637C26FF02B0007E20C7 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		FD23638426FF0AE1007E20C7 /* ChapetersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapetersListView.swift; sourceTree = "<group>"; };
+		FD23639026FF1064007E20C7 /* QuranChaptersResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranChaptersResponseModel.swift; sourceTree = "<group>"; };
+		FD23639D26FF1453007E20C7 /* QuranChaptersListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranChaptersListModelView.swift; sourceTree = "<group>"; };
+		FD2363A526FF24B4007E20C7 /* ChapterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailsView.swift; sourceTree = "<group>"; };
+		FD2363B026FF24DD007E20C7 /* ChapterdetailsModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterdetailsModelView.swift; sourceTree = "<group>"; };
+		FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVersesResponseModel.swift; sourceTree = "<group>"; };
+		FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +122,13 @@
 		FD23633A26FEFF2A007E20C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FD2363D526FF4C23007E20C7 /* Resources */,
+				FD23639C26FF1095007E20C7 /* ViewModels */,
+				FD23639B26FF1078007E20C7 /* Views */,
+				FD23638F26FF103A007E20C7 /* Models */,
 				FD23633B26FEFF2A007E20C7 /* Al_QuranApp.swift */,
 				FD23633C26FEFF2A007E20C7 /* ContentView.swift */,
+				FD23637C26FF02B0007E20C7 /* ContentHeaderView.swift */,
 				FD23633D26FEFF2D007E20C7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +178,57 @@
 				FD23636326FEFF2D007E20C7 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		FD23638326FF0AAD007E20C7 /* ChaptersList */ = {
+			isa = PBXGroup;
+			children = (
+				FD23638426FF0AE1007E20C7 /* ChapetersListView.swift */,
+			);
+			path = ChaptersList;
+			sourceTree = "<group>";
+		};
+		FD23638F26FF103A007E20C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD23639026FF1064007E20C7 /* QuranChaptersResponseModel.swift */,
+				FD2363BB26FF257B007E20C7 /* ChapterVersesResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD23639B26FF1078007E20C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD2363A426FF2499007E20C7 /* ChapterDetailsView */,
+				FD23638326FF0AAD007E20C7 /* ChaptersList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD23639C26FF1095007E20C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD23639D26FF1453007E20C7 /* QuranChaptersListModelView.swift */,
+				FD2363B026FF24DD007E20C7 /* ChapterdetailsModelView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FD2363A426FF2499007E20C7 /* ChapterDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				FD2363A526FF24B4007E20C7 /* ChapterDetailsView.swift */,
+			);
+			path = ChapterDetailsView;
+			sourceTree = "<group>";
+		};
+		FD2363D526FF4C23007E20C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD2363D626FF4C33007E20C7 /* ActivityIndicator.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +388,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23638526FF0AE1007E20C7 /* ChapetersListView.swift in Sources */,
+				FD2363B126FF24DD007E20C7 /* ChapterdetailsModelView.swift in Sources */,
+				FD2363BC26FF257B007E20C7 /* ChapterVersesResponseModel.swift in Sources */,
+				FD23639126FF1064007E20C7 /* QuranChaptersResponseModel.swift in Sources */,
+				FD23639E26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */,
+				FD23637D26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */,
+				FD2363D726FF4C33007E20C7 /* ActivityIndicator.swift in Sources */,
 				FD23636626FEFF2D007E20C7 /* ContentView.swift in Sources */,
 				FD23636426FEFF2D007E20C7 /* Al_QuranApp.swift in Sources */,
+				FD2363A626FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD23638626FF0AE1007E20C7 /* ChapetersListView.swift in Sources */,
+				FD2363B226FF24DD007E20C7 /* ChapterdetailsModelView.swift in Sources */,
+				FD2363BD26FF257B007E20C7 /* ChapterVersesResponseModel.swift in Sources */,
+				FD23639226FF1064007E20C7 /* QuranChaptersResponseModel.swift in Sources */,
+				FD23639F26FF1453007E20C7 /* QuranChaptersListModelView.swift in Sources */,
+				FD23637E26FF02B0007E20C7 /* ContentHeaderView.swift in Sources */,
+				FD2363DC26FF4C38007E20C7 /* ActivityIndicator.swift in Sources */,
 				FD23636726FEFF2D007E20C7 /* ContentView.swift in Sources */,
 				FD23636526FEFF2D007E20C7 /* Al_QuranApp.swift in Sources */,
+				FD2363A726FF24B4007E20C7 /* ChapterDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
